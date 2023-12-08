@@ -34,3 +34,95 @@ nav a:last-child {
     display: none;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1720px;
+    padding: 0 210px;
+}
+
+.main_picture img {
+    width: 570px;
+}
+
+.main_content {
+    max-width: 620px;
+}
+
+.main_content h1, p {
+    color:rgba(74, 74, 74);
+    font-weight: 400;
+}
+
+.main_content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 32px 0;
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.counter {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    max-width: 130px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.counter p {
+    color:rgba(104, 136, 0);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.minus, .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 1px solid rgba(128, 128, 128, 0.477);
+    border-radius: 8px;
+}
+
+.content_buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 446px;
+    width: 100%;
+}
+
+.more_info, .in_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 48px;
+    border: 1px solid rgba(104, 136, 0);
+    border-radius: 50px;
+}
+
+.content_buttons p {
+    color: rgba(104, 136, 0);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
