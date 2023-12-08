@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 267px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding: 0 210px;
+    width: 100%;
+    align-items: center;
+}
+
+nav a {
+    font-size: 18px;
+    color: rgba(104, 136, 0);
+    margin-right: 88px;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+
+.burger {
+    display: none;
+}
+
